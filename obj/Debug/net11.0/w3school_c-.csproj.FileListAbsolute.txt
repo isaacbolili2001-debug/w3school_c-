@@ -1,0 +1,16 @@
+E:\w3school_c-\bin\Debug\net11.0\w3school_c-.exe
+E:\w3school_c-\bin\Debug\net11.0\w3school_c-.deps.json
+E:\w3school_c-\bin\Debug\net11.0\w3school_c-.runtimeconfig.json
+E:\w3school_c-\bin\Debug\net11.0\w3school_c-.runtimeconfig.dev.json
+E:\w3school_c-\bin\Debug\net11.0\w3school_c-.dll
+E:\w3school_c-\bin\Debug\net11.0\w3school_c-.pdb
+E:\w3school_c-\obj\Debug\net11.0\w3school_c-.GeneratedMSBuildEditorConfig.editorconfig
+E:\w3school_c-\obj\Debug\net11.0\w3school_c-.AssemblyInfoInputs.cache
+E:\w3school_c-\obj\Debug\net11.0\w3school_c-.AssemblyInfo.cs
+E:\w3school_c-\obj\Debug\net11.0\w3school_c-.csproj.CoreCompileInputs.cache
+E:\w3school_c-\obj\Debug\net11.0\w3school_c-.dll
+E:\w3school_c-\obj\Debug\net11.0\refint\w3school_c-.dll
+E:\w3school_c-\obj\Debug\net11.0\w3school_c-.pdb
+E:\w3school_c-\obj\Debug\net11.0\w3school_c-.genruntimeconfig.cache
+E:\w3school_c-\obj\Debug\net11.0\ref\w3school_c-.dll
+E:\w3school_c-\obj\Debug\net11.0\w3school.64B94957.Up2Date
