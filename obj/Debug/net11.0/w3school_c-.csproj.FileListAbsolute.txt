@@ -14,3 +14,4 @@ E:\w3school_c-\obj\Debug\net11.0\w3school_c-.pdb
 E:\w3school_c-\obj\Debug\net11.0\w3school_c-.genruntimeconfig.cache
 E:\w3school_c-\obj\Debug\net11.0\ref\w3school_c-.dll
 E:\w3school_c-\obj\Debug\net11.0\w3school.64B94957.Up2Date
+E:\w3school_c-\obj\Debug\net11.0\w3school_c-.sourcelink.json
