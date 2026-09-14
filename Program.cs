@@ -2,47 +2,34 @@
 
 namespace HelloWorld
 {
-    public class Person
-    {
-        // Properties to store data
-        public string _name { get; set; }
-        public int _age { get; set; }
-
-        // Constructor to initialize the object with values
-        public Person(string _name, int _age)
-        {
-            this._name = _name;
-            this._age = _age;
-        }
-
-        // Method to perform an action
-        public void DisplayAndAge(string name, int age)
-        {
-            Console.WriteLine($"Name: {name}, Age: {age}");
-        }
-    }
-
-
-
-
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine($"The current time is {DateTime.Now}");
+            Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ... \n");
+            Console.WriteLine("Invoice: 1021\t\tComplete!");
+            Console.WriteLine("Invoice: 1022\t\tComplete!");
+            Console.Write("\nOutput Directory:\t");
+            Console.Write(@"c:\invoices");
+            // To generate Japanese invoices:
+            // Nihon no seikyū-sho o seisei suru ni wa:
+            Console.Write("\n\n\u65e5\u672c\u306e\u8acb\u6c42\u66f8\u3092\u751f\u6210\u3059\u308b\u306b\u306f\uff1a\n\t");
+            // User command to run an application
+            Console.WriteLine(@"c:\invoices\app.exe -j");
 
-            Console.WriteLine("what is your name?");
-            string inputName = Console.ReadLine() ?? "";
+            string projectName = "ACME";
 
-            Console.WriteLine("what is your age?");
-            string inputAgeString = Console.ReadLine() ?? "0";
-            int inputAge = Convert.ToInt32(inputAgeString);
-
-            Person person1 = new Person(inputName, inputAge);
-            Person person2 = new Person("Alice", 30);
-
-            person1.DisplayAndAge(person1._name, person1._age);
-            person2.DisplayAndAge(person2._name, person2._age);
+            string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+            Console.WriteLine("indows" + 1 + 1);
+            Console.WriteLine(5 / 10);
+            int result = 3 + 1 * 5 / 2;
+            Console.WriteLine($"Result: {result}");
+            Console.Write("\n\nView English output: \n\t");
+            Console.WriteLine(@$"c:Exercise\{projectName}\data.txt");
+            Console.Write($"\n\n{russianMessage}: \n\t");
+            Console.WriteLine(@$"c:\Exercise\{projectName}\ru-Ru\data.txt");
 
         }
     }
