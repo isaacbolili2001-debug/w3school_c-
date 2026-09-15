@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace HelloWorld
 {
@@ -6,6 +7,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("Hello World!");
             Console.WriteLine($"The current time is {DateTime.Now}");
             Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ... \n");
@@ -31,6 +33,72 @@ namespace HelloWorld
             Console.Write($"\n\n{russianMessage}: \n\t");
             Console.WriteLine(@$"c:\Exercise\{projectName}\ru-Ru\data.txt");
 
+            */
+
+            House jonsonHome = new House();
+            jonsonHome._kitchen = new Blind();
+            jonsonHome._livingRoom = new Blind();
+
+
+            House johnsonHome = new House();
+            johnsonHome._owner = "Johnson Family";
+            johnsonHome._kitchen._color = "White";
+            johnsonHome._kitchen._width = 2.5;
+            johnsonHome._kitchen._height = 1.5;
+
+            johnsonHome._livingRoom._color = "white";
+            johnsonHome._livingRoom._height = 3.5;
+            johnsonHome._livingRoom._width = 4.5;
+
+            Console.WriteLine("Johnson Family's Kitchen Blind:");
+            johnsonHome._kitchen.Display();
+            Console.WriteLine("Johnson Family's Living Room Blind:");
+            johnsonHome._livingRoom.Display();
+
+
+
+
+
+
+
         }
+
     }
+
+
+    public class Blind
+    {
+        public string _color = "";
+        public double _width;
+        public double _height;
+
+
+
+        public double GetArea()
+        {
+            return _height * _width;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine($"color: \t{_color}");
+            Console.WriteLine($"area: \t{GetArea()}");
+        }
+
+
+
+    }
+
+    public class House
+    {
+        public string _owner = "";
+        public Blind _kitchen = new Blind();
+        public Blind _livingRoom = new Blind();
+
+
+    }
+
+
+
+
 }
